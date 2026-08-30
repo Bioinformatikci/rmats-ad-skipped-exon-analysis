@@ -1,0 +1,10 @@
+tool	version
+python	3.10.21
+rmats	4.4.0
+rmats2sashimiplot	4.0.0
+salmon	2.5.1
+STAR	2.7.10b
+samtools	1.24
+subread_featureCounts	2.1.1
+fastqc	0.12.1
+multiqc	1.35

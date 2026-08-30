@@ -1,0 +1,1 @@
+results/star_align/SRR12850850.Aligned.sortedByCoord.out.bam,results/star_align/SRR12850851.Aligned.sortedByCoord.out.bam,results/star_align/SRR12850852.Aligned.sortedByCoord.out.bam

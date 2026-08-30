@@ -1,0 +1,11 @@
+role	path	bytes
+fastq_AD_SRR12850850	datam/AD/SRR12850850.fastq.gz	1655974512
+fastq_AD_SRR12850851	datam/AD/SRR12850851.fastq.gz	1830157084
+fastq_AD_SRR12850852	datam/AD/SRR12850852.fastq.gz	1810295567
+fastq_control_SRR12850842	datam/control/SRR12850842.fastq.gz	1815138902
+fastq_control_SRR12850853	datam/control/SRR12850853.fastq.gz	1201129341
+fastq_control_SRR12850854	datam/control/SRR12850854.fastq.gz	1621347203
+reference_genome_fasta_gz	datam/GRCh38.primary_assembly.genome.fa.gz	845635028
+reference_gencode_gtf_gz	datam/gencode.v44.primary_assembly.annotation.gtf.gz	49730393
+reference_gencode_transcripts_fasta_gz	datam/gencode.v44.transcripts.fa.gz	82601810
+reference_gencode_entrez_metadata_gz	datam/gencode.v44.metadata.EntrezGene.gz	1181183

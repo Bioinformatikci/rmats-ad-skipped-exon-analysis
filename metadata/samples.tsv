@@ -1,0 +1,7 @@
+sample	group	fastq
+SRR12850850	AD	datam/AD/SRR12850850.fastq.gz
+SRR12850851	AD	datam/AD/SRR12850851.fastq.gz
+SRR12850852	AD	datam/AD/SRR12850852.fastq.gz
+SRR12850842	control	datam/control/SRR12850842.fastq.gz
+SRR12850853	control	datam/control/SRR12850853.fastq.gz
+SRR12850854	control	datam/control/SRR12850854.fastq.gz

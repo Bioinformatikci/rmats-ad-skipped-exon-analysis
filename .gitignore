@@ -1,0 +1,37 @@
+# Large local analysis inputs/intermediates. Keep these outside GitHub.
+datam/
+data/
+raw_data/
+reference/
+star_index/
+star_align/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.gtf
+*.gtf.gz
+
+# Runtime outputs that can be regenerated.
+logs/
+work/
+tmp/
+results/full_rmats_out/
+results/star_align/
+results/star_index/
+results/qc/
+
+# Local/editor noise.
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.pyc

@@ -1,0 +1,11 @@
+event_type	counting_mode	total_tested	significant_fdr_lt_0_05_abs_delta_ge_0_10	AD_higher_inclusion	control_higher_inclusion
+SE	JC	40375	551	238	313
+SE	JCEC	44523	907	519	388
+A5SS	JC	4730	174	140	34
+A5SS	JCEC	4779	212	174	38
+A3SS	JC	7234	171	132	39
+A3SS	JCEC	7290	227	182	45
+MXE	JC	4528	64	32	32
+MXE	JCEC	5286	127	60	67
+RI	JC	6458	485	444	41
+RI	JCEC	6564	687	615	72
