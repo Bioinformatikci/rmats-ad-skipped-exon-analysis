@@ -27,7 +27,7 @@ High-confidence SE extraction additionally used:
 Current high-confidence SE set:
 
 - 785 SE events
-- 669 genes
+- 442 distinct genes by GeneID; 669 gene-by-counting-mode records across JC and JCEC
 
 ## Selected Sashimi Events
 

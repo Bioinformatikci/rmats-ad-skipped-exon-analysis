@@ -61,6 +61,20 @@ Or run the whole workflow:
 bash scripts/run_all.sh
 ```
 
+The full workflow needs the raw FASTQ files, GRCh38 reference files, conda environment, and tools listed in `environment/tool_versions.txt`. Those inputs and full intermediate results are not included here; the input manifest and `docs/REPRODUCIBILITY.md` describe the path layout. The commands above have not been exercised by the repository's lightweight CI.
+
+## Repository checks
+
+GitHub Actions checks Bash and Python syntax, tab-separated table structure, sample group records, and consistency between the committed filtered-event tables and their summary counts. It also verifies that committed high-confidence SE rows satisfy the stated filter thresholds. Run the same checks locally with:
+
+```bash
+bash -n config/*.sh scripts/*.sh
+python3 -c 'import ast, pathlib; [ast.parse(p.read_text(encoding="utf-8"), filename=str(p)) for p in pathlib.Path("scripts").glob("*.py")]'
+python3 scripts/check_repository.py
+```
+
+These checks do not rerun read QC, alignment, rMATS, sashimi plotting, or biological validation.
+
 ## Current Main Findings
 
 The compact high-confidence SE filter used:
@@ -73,7 +87,7 @@ The compact high-confidence SE filter used:
 Current high-confidence SE result:
 
 - 785 SE events
-- 669 SE genes
+- 442 distinct genes by GeneID; the gene-level tables contain 669 gene-by-counting-mode records (JC and JCEC), not 669 distinct genes
 
 Selected sashimi examples:
 
