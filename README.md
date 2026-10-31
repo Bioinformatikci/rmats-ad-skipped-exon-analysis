@@ -122,3 +122,5 @@ See:
 ## Important Limits
 
 This is a small exploratory cohort (`n=3` AD, `n=3` control). The results should be treated as candidate splicing events, not definitive disease biomarkers. Stronger interpretation requires independent cohorts, event-level validation, and isoform/protein consequence mapping.
+
+The FASTQ inputs are public runs from [PRJNA670209](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA670209). This repository is for research support and does not provide clinical diagnosis, treatment decisions, or patient-specific interpretation.
